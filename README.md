@@ -1,4 +1,4 @@
 # atom-angular2
-Package for Angular 2 App development.
+A Package for Angular-2 app development [A L P H A].
 
-Its a blank initial publish
+Note:- Its a work in progress package and in the beginning state.

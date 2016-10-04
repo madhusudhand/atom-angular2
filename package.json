@@ -1,8 +1,8 @@
 {
   "name": "angular2",
   "version": "0.1.0",
-  "description": "Package for Angular 2 app development",
-  "main": "index.js",
+  "description": "A Package for Angular-2 app development [Alpha]",
+  "main": "./lib/index",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },

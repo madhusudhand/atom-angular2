@@ -1,0 +1,6 @@
+'.text.html':
+    '*ngIf':
+        'prefix': 'ngif'
+        'body': """
+            *ngIf="${1:expression}" ${2}
+        """

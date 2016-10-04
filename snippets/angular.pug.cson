@@ -1,0 +1,6 @@
+'.source.pug':
+    '*ngIf':
+        'prefix': 'ngIf'
+        'body': """
+            *ngIf='${1:expression}', ${2}
+        """

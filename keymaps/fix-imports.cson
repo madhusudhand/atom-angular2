@@ -1,0 +1,5 @@
+'.platform-linux atom-workspace, .platform-win32 atom-workspace':
+  'ctrl-alt-i"': 'angular2:fix-imports'
+
+'.platform-darwin atom-workspace':
+  'cmd-shift-i': 'angular2:fix-imports'

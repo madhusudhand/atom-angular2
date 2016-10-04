@@ -1,0 +1,51 @@
+'.source.ts, .source.tsx':
+    'Angular Component':
+        'prefix': 'component'
+        'body': """
+            import { Component, OnInit } from '@angular/core';
+
+            @Component({
+              selector: '${1:<selector>}',
+              templateUrl: '${2:<template.html>}',
+            })
+            export class ${3:<Name>}Component implements OnInit {
+              constructor() {${4}}
+              ngOnInit() {}
+            }
+        """
+    'Angular Directive':
+        'prefix': 'directive'
+        'body': """
+            import { Directive } from '@angular/core';
+
+            @Directive({
+              selector: '${1:[<selector>]}'
+            })
+            export class ${2:<Name>}Directive {
+              constructor() {${3}}
+            }
+        """
+    'Angular Service':
+        'prefix': 'service'
+        'body': """
+            import { Injectable } from '@angular/core';
+
+            @Injectable()
+            export class ${1:<Name>}Service {
+              constructor() {${2}}
+            }
+        """
+    'Angular Pipe':
+        'prefix': 'pipe'
+        'body': """
+            import { Pipe, PipeTransform } from '@angular/core';
+
+            @Pipe({
+              name: '${1:<name>}'
+            })
+            export class ${2:<Name>}Pipe implements PipeTransform {
+              transform(value: ${3:<value-type>}, args: any[]) : ${3:<value-type>} {
+                return ${4};
+              }
+            }
+        """
