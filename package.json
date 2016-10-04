@@ -1,0 +1,23 @@
+{
+  "name": "angular2",
+  "version": "0.0.0",
+  "description": "Package for Angular 2 app development",
+  "main": "index.js",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/madhusudhand/atom-angular2",
+  "keywords": [
+    "atom",
+    "angular2"
+  ],
+  "author": "Madhusudhan Dollu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madhusudhand/atom-angular2/issues"
+  },
+  "homepage": "https://github.com/madhusudhand/atom-angular2#readme"
+}
