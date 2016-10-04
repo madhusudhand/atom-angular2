@@ -1,6 +1,6 @@
 {
   "name": "angular2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Package for Angular-2 app development [Alpha]",
   "main": "./lib/index",
   "engines": {
