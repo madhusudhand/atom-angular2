@@ -6,6 +6,13 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/madhusudhand/atom-angular2/issues"
   },
-  "homepage": "https://github.com/madhusudhand/atom-angular2#readme"
+  "homepage": "https://github.com/madhusudhand/atom-angular2#readme",
+  "dependencies": {
+    "lodash": "^4.16.3",
+    "js-module-indexer": "0.0.0"
+  }
 }
