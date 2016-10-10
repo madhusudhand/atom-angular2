@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/madhusudhand/atom-angular2#readme",
   "dependencies": {
-    "js-module-indexer": "^0.0.2",
+    "js-module-indexer": "^0.0.3",
     "lodash": "^4.16.3"
   }
 }
