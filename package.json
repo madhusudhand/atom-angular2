@@ -1,7 +1,7 @@
 {
   "name": "angular2",
   "version": "0.1.2",
-  "description": "A Package for Angular-2 app development [Alpha]",
+  "description": "Package for Angular 2 development [Alpha]",
   "main": "./lib/index",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -9,7 +9,7 @@
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
-        "2.0.0": "getProvider"
+        "3.0.0": "getProvider"
       }
     }
   },
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/madhusudhand/atom-angular2#readme",
   "dependencies": {
-    "js-module-indexer": "^0.0.3",
+    "js-module-indexer": "^0.0.4",
     "lodash": "^4.16.3"
   }
 }
