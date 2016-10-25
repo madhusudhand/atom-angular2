@@ -1,0 +1,63 @@
+@color-orange: #e2c08d;
+@color-green: #73c990;
+@color-red: #e06c75;
+
+.status-bar {
+
+  .index-progress-view {
+    .in-progress {
+      color: @color-orange;
+    }
+    .complete {
+      color: @color-green;
+    }
+    .error {
+      color: @color-red;
+    }
+  }
+
+  .icon {
+    &.spinner {
+      border-radius: 50%;
+      width: 14px;
+      height: 14px;
+      position: relative;
+      top: 2px;
+
+      margin: 6px auto;
+      font-size: 10px;
+      position: relative;
+      text-indent: -9999em;
+      border-top: 2px solid rgba(255, 255, 255, 0.2);
+      border-right: 2px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      border-left: 2px solid #ffffff;
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-animation: load8 0.8s infinite linear;
+      animation: load8 0.8s infinite linear;
+    }
+    @-webkit-keyframes load8 {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes load8 {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+  }
+
+}
