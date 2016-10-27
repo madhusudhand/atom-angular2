@@ -1,14 +1,17 @@
-# atom-angular2
-A complete package for Angular 2 app development [A L P H A].
+## atom-angular2 [A L P H A]
+A complete package for Angular 2 app development.
 
-**Note:- It's a work in progress.**
-**Currently supports angular-cli projects only**
+**Note:**
 
-## Features
+This package is very much still a work in progress.
+
+Currently supports **angular-cli** projects only.
+
+### Features
 * Syntax highlighting for Typescript
 * Autocompletes
   - Typescript
   - Angular
   - Your App classes
-* Resolve Imports
-* Code snippets for angular
+* Resolves Imports
+* Code snippets for angular components
