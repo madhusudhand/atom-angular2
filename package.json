@@ -1,6 +1,6 @@
 {
   "name": "angular2",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Package for Angular 2 development [Alpha]",
   "main": "./lib/index",
   "engines": {
@@ -25,7 +25,6 @@
     "lodash": "^4.16.3",
     "typescript": "2.1.0-dev.20161020"
   },
-
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
