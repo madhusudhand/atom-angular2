@@ -16,6 +16,6 @@ Currently supports **angular-cli** projects only.
 * Resolves Imports
 * Code snippets for angular components
 
-![Autocomplete](/docs/img/autocomplete/autocomplete1.png?raw=true "Autocomplete")
+![Autocomplete](/docs/img/autocomplete1.png?raw=true "Autocomplete")
 
-![Resolves Imports](/docs/img/autocomplete/autocomplete2.png?raw=true "Resolves Imports")
+![Resolves Imports](/docs/img/autocomplete2.png?raw=true "Resolves Imports")
