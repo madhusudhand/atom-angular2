@@ -16,6 +16,8 @@ Currently supports **angular-cli** projects only.
 * Resolves Imports
 * Snippets
 
-![Autocomplete](/docs/img/autocomplete1.png?raw=true "Autocomplete")
+![Autocomplete](https://raw.githubusercontent.com/madhusudhand/atom-angular2/master/docs/img/autocomplete1.png?raw=true "Autocomplete")
 
-![Resolves Imports](/docs/img/autocomplete2.png?raw=true "Resolves Imports")
+![Resolves Imports](https://raw.githubusercontent.com/madhusudhand/atom-angular2/master/docs/img/autocomplete2.png?raw=true "Resolves Imports")
+
+![Autocomplete](https://raw.githubusercontent.com/madhusudhand/atom-angular2/master/docs/img/autocomplete3.png?raw=true "Autocomplete")
