@@ -1,7 +1,7 @@
 {
   "name": "angular-2",
   "version": "0.1.8",
-  "description": "A complete package for Angular 2 app development.",
+  "description": "A complete package for Angular 2 app development. [BETA]",
   "main": "./lib/index",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

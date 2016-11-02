@@ -1,5 +1,5 @@
 '.source.ts, .source.tsx':
-    'Angular Component':
+    'Component':
         'prefix': 'component'
         'body': """
             import { Component, OnInit } from '@angular/core';
@@ -13,7 +13,7 @@
               ngOnInit() {}
             }
         """
-    'Angular Directive':
+    'Directive':
         'prefix': 'directive'
         'body': """
             import { Directive } from '@angular/core';
@@ -25,7 +25,7 @@
               constructor() {${3}}
             }
         """
-    'Angular Service':
+    'Service':
         'prefix': 'service'
         'body': """
             import { Injectable } from '@angular/core';
@@ -35,7 +35,7 @@
               constructor() {${2}}
             }
         """
-    'Angular Pipe':
+    'Pipe':
         'prefix': 'pipe'
         'body': """
             import { Pipe, PipeTransform } from '@angular/core';

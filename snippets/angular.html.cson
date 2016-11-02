@@ -1,6 +1,16 @@
 '.text.html':
-    '*ngIf':
-        'prefix': 'ngif'
-        'body': """
-            *ngIf="${1:expression}" ${2}
-        """
+  '*ngIf':
+    'prefix': 'ngif'
+    'body': """
+      *ngIf="${1:expression}" ${2}
+    """
+  '*ngFor':
+    'prefix': 'ngfor'
+    'body': """
+      *ngFor="let ${1:item} of ${2:items}" ${3}
+    """
+  'ngModel':
+    'prefix': 'ngmodel'
+    'body': """
+      [(ngModel)]="${1:data}" ${2}
+    """

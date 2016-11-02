@@ -1,5 +1,5 @@
-## atom-angular2 [A L P H A]
-A complete package for Angular 2 app development.
+## atom-angular-2
+A complete package for Angular 2 app development. [BETA]
 
 **Note:**
 
@@ -14,7 +14,7 @@ Currently supports **angular-cli** projects only.
   - Angular
   - Your App classes
 * Resolves Imports
-* Code snippets for angular components
+* Snippets
 
 ![Autocomplete](/docs/img/autocomplete1.png?raw=true "Autocomplete")
 
