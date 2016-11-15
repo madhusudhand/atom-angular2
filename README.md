@@ -16,8 +16,14 @@ Currently supports **angular-cli** projects only.
 * Resolves Imports
 * Snippets
 
-![Autocomplete](https://raw.githubusercontent.com/madhusudhand/atom-angular2/master/docs/img/autocomplete1.png?raw=true "Autocomplete")
+![Autocomplete](https://raw.githubusercontent.com/madhusudhand/atom-angular2/master/docs/gif/autocomplete_import.gif?raw=true "Autocomplete")
 
-![Resolves Imports](https://raw.githubusercontent.com/madhusudhand/atom-angular2/master/docs/img/autocomplete2.png?raw=true "Resolves Imports")
+![Resolves Imports](https://raw.githubusercontent.com/madhusudhand/atom-angular2/master/docs/gif/autocomplete_snippet.gif?raw=true "Resolves Imports")
 
-![Autocomplete](https://raw.githubusercontent.com/madhusudhand/atom-angular2/master/docs/img/autocomplete3.png?raw=true "Autocomplete")
+### Contributing
+
+- Atom -> Install Shell Commands
+- Clone this repo
+- cd atom-angular2
+- apm link
+- do changes and give a pull request!!
