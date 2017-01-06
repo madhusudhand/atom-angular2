@@ -1,5 +1,5 @@
 {
-  "name": "angular-2",
+  "name": "angular",
   "version": "0.2.2",
   "description": "A complete package for Angular 2 app development. [BETA]",
   "main": "./lib/index",
